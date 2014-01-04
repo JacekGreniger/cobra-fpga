@@ -1,0 +1,19 @@
+NET "clk_in"  LOC = "T9"  ; 
+
+NET "led1"  LOC = "p14"  ; 
+NET "led2"  LOC = "l12"  ; 
+NET "led3"  LOC = "n14"  ; 
+
+NET "z80_rst"  LOC = "M13"  ;    # BTN 0
+
+NET "VGA_HSYNC_OUT"  LOC = "r9";
+NET "VGA_VSYNC_OUT"  LOC = "t10";
+NET "VGA_R_OUT"  LOC = "r12";
+NET "VGA_G_OUT"  LOC = "t12" ;
+NET "VGA_B_OUT"  LOC = "r11" ;
+
+NET "PS2_CLK"  LOC = "M16" ;
+
+NET "PS2_DATA"  LOC = "M15" ;
+
+NET "PLAYER_IN" LOC = "C10"; # B1-4
